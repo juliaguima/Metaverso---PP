@@ -96,23 +96,32 @@
     <!--begin:main content-->
     <main>
       <!--begin:main slider-->
-      <div class="position-relative overflow-hidden">
-        <div class="ms-skin-black-1 master-slider" id="masterslider">
-          <!--begin:slide-1-->
-          <div class="ms-slide bg-dark" data-delay="3" data-fill-mode="fill">
-            <!--title-->
-            <div class="ms-layer ms-title text-white" data-effect="front(800)" data-duration="1200" data-delay="600"
-              data-ease="easeInOutCubic" data-hide-effect="top(long,false)" data-offset-x="0" data-offset-y="-40"
-              data-origin="mc" data-position="center" data-masked="false">
-              <div class="text-center">
-                O Metaverso e os impactos na saúde <br>física e mental</div>
-            </div>
-           
-          <!--end:slide-1-->
 
+
+      <section class="position-relative">
+        <div class="container-fluid position-relative z-1">
+            <div class="position-relative rounded-4 overflow-hidden bg-dark">
+                <!-- Slider main container -->
+                <div class="swiper-main rounded-4 overflow-hidden opacity-50 position-absolute start-0 top-0 w-100 h-100 mb-0">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper rounded-5">
+                        <!-- Slides -->
+                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
+                            style="background-image: url(assets/img/backgrounds/bg1.jpg);"></div>
+                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
+                            style="background-image: url(assets/img/backgrounds/bg2.jpg);"></div>
+                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
+                            style="background-image: url(assets/img/backgrounds/bg3.jpg);"></div>
+                    </div>
+                </div>
+                <div class="position-relative text-white w-md-75 px-4 w-lg-60 mx-auto text-center z-1 py-12 py-lg-15">
+                    <h1 class="display-1 mb-3 mb-md-4 position-relative">Metaverso</h1>
+                    <p> Impactos na saúde física e mental dos usuários</p>
+                    <div class="d-flex flex-column"></div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!--end:main slider-->
+    </section>
 
       <section class="position-relative bg-body-tertiary overflow-hidden">
                 <div class="container py-lg-11 py-9">

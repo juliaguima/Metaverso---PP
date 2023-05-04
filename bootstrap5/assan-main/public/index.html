@@ -1,293 +1,236 @@
 <!doctype html>
 <html lang="en" data-bs-theme="light">
 
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="assets/img/favicon.ico" type="image/ico">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/img/M_logo.png" type="image/ico">
 
-    <!--Box Icons-->
-    <link rel="stylesheet" href="assets/fonts/boxicons/css/boxicons.min.css">
+  <!--Box Icons-->
+  <link rel="stylesheet" href="assets/fonts/boxicons/css/boxicons.min.css">
 
-    <!--AOS Animations-->
-    <link rel="stylesheet" href="assets/vendor/node_modules/css/aos.css">
+  <!--AOS Animations-->
+  <link rel="stylesheet" href="assets/vendor/node_modules/css/aos.css">
 
-    <!--Iconsmind Icons-->
-    <link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
+  <!--Iconsmind Icons-->
+  <link rel="stylesheet" href="assets/fonts/iconsmind/iconsmind.css">
 
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
+  <!--Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&family=Source+Serif+Pro:ital@0;1&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/vendor/masterslider/style/masterslider.css">
+  <link rel="stylesheet" href="assets/vendor/masterslider/skins/black-1/style.css">
+  <link rel="stylesheet" href="assets/vendor/node_modules/css/swiper-bundle.min.css">
+  <link href="assets/css/theme.min.css" rel="stylesheet">
 
-    <!--Master slider-->
-    <link rel="stylesheet" href="assets/vendor/masterslider/style/masterslider.css">
-    <link rel="stylesheet" href="assets/vendor/masterslider/skins/black-1/style.css">
+  <title>MetaIn</title>
+</head>
 
-    <!--Swiper slider-->
-    <link rel="stylesheet" href="assets/vendor/node_modules/css/swiper-bundle.min.css">
-    <!-- Main CSS -->
-    <link href="assets/css/theme.min.css" rel="stylesheet">
-
-    <title>Assan 4</title>
-  </head>
-
-  <body>
-
+<body>
+  <header class="header-transparent sticky-fixed">
     <header class="header-transparent sticky-fixed">
-
-      <header class="header-transparent sticky-fixed">
-
-        <!--begin:navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-link-white">
-          <!--Navbar-fixed-background-->
-          <div class="navbar-fixed-bg position-absolute"></div>
-          <div class="container position-relative z-1">
-            <!--begin:logo-->
-            <a class="navbar-brand" href="index.html">
-              <img src="assets/img/logo/logo.svg" alt="" class="img-fluid navbar-brand-sticky">
-              <img src="assets/img/logo/logo-white.svg" alt="" class="img-fluid navbar-brand-transparent">
-            </a>
-            <!--end:logo-->
-            <!--begin:navbar-no-collapse-items-->
-            <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
-              <!--Navbar toggler button-->
-              <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
-                data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                  <i></i>
-                </span>
-              </button>
-              <!--Button-->
-              <div class="nav-item me-3 ms-lg-3 ms-xl-5 me-lg-0">
-                <a href="#" class="btn btn-success btn-sm">Infos</a>
-              </div>
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light navbar-link-white">
+        <div class="navbar-fixed-bg position-absolute"></div>
+        <div class="container position-relative z-1">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo_meta.png" alt="" class="img-fluid navbar-brand-sticky">
+            <img src="assets/img/logo_meta_branco.png" alt="" class="img-fluid navbar-brand-transparent">
+          </a>
+          <div class="d-flex align-items-center navbar-no-collapse-items order-lg-last">
+            <button class="navbar-toggler order-last" type="button" data-bs-toggle="collapse"
+              data-bs-target="#mainNavbarTheme" aria-controls="mainNavbarTheme" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i></i>
+              </span>
+            </button>
+            <div class="nav-item me-3 ms-lg-3 ms-xl-5 me-lg-0">
+              <a href="#oq" class="btn btn-primary btn-sm">O que é?</a>
             </div>
-            <!--end:navbar-no-collapse-items-->
-  
-            <!--begin:navbar-collapse-->
-            <div class="collapse navbar-collapse" id="mainNavbarTheme">
-              
-              <!--begin:Navbar items-->
-              <ul class="navbar-nav ms-auto">
-  
-                <!--begin:landings-->
-                
-                  <div class="dropdown-menu dropdown-menu-md dropdown-menu-start py-0 pe-lg-0">
-                    <div class="overflow-hidden rounded-end">
-                      <div class="row mx-0">
-                        <div class="col-lg-5 position-relative">
-                        </div>
-                        <!--/.col-->
-                        <div class="col-lg-7 d-none rounded-end overflow-hidden px-0 d-lg-block position-relative bg-no-repeat bg-cover bg-center"
-                          style="background-image: url('assets/img/960x1140/3.jpg')">
-                          <div class="position-absolute rounded-end w-100 h-100 top-0 start-0 bg-gradient-primary opacity-75">
-                          </div>
-                        </div></div>
+            <div class="nav-item me-3 ms-lg-3 ms-xl-5 me-lg-0">
+              <a href="#negativo" class="btn btn-primary btn-sm">Negativos</a>
+            </div>
+            <div class="nav-item me-3 ms-lg-3 ms-xl-5 me-lg-0">
+              <a href="#positivo" class="btn btn-primary btn-sm">Positivos</a>
+            </div>
+
+
+          </div>
+          <div class="collapse navbar-collapse" id="mainNavbarTheme">
+            <ul class="navbar-nav ms-auto">
+              <div class="dropdown-menu dropdown-menu-md dropdown-menu-start py-0 pe-lg-0">
+                <div class="overflow-hidden rounded-end">
+                  <div class="row mx-0">
+                    <div class="col-lg-5 position-relative">
+                    </div>
+                    <div
+                      class="col-lg-7 d-none rounded-end overflow-hidden px-0 d-lg-block position-relative bg-no-repeat bg-cover bg-center"
+                      style="background-image: url('assets/img/960x1140/3.jpg')">
+                      <div
+                        class="position-absolute rounded-end w-100 h-100 top-0 start-0 bg-gradient-primary opacity-75">
+                      </div>
                     </div>
                   </div>
-                </li>
+                </div>
               </div>
-            </div>
-          </nav>
-        </header>
-    <!--begin:main content-->
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
-      <!--begin:main slider-->
-
-
       <section class="position-relative">
         <div class="container-fluid position-relative z-1">
-            <div class="position-relative rounded-4 overflow-hidden bg-dark">
-                <!-- Slider main container -->
-                <div class="swiper-main rounded-4 overflow-hidden opacity-50 position-absolute start-0 top-0 w-100 h-100 mb-0">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper rounded-5">
-                        <!-- Slides -->
-                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
-                            style="background-image: url(assets/img/backgrounds/bg1.jpg);"></div>
-                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
-                            style="background-image: url(assets/img/backgrounds/bg2.jpg);"></div>
-                        <div class="swiper-slide bg-cover bg-center bg-no-repeat"
-                            style="background-image: url(assets/img/backgrounds/bg3.jpg);"></div>
-                    </div>
-                </div>
-                <div class="position-relative text-white w-md-75 px-4 w-lg-60 mx-auto text-center z-1 py-12 py-lg-15">
-                    <h1 class="display-1 mb-3 mb-md-4 position-relative">Metaverso</h1>
-                    <p> Impactos na saúde física e mental dos usuários</p>
-                    <div class="d-flex flex-column"></div>
-                </div>
+          <div class="position-relative rounded-4 overflow-hidden bg-dark">
+            <div
+              class="swiper-main rounded-4 overflow-hidden opacity-50 position-absolute start-0 top-0 w-100 h-100 mb-0">
+              <div class="swiper-wrapper rounded-5">
+                <div class="swiper-slide bg-cover bg-center bg-no-repeat"
+                  style="background-image: url(assets/img/metabg.png);"></div>
+                <div class="swiper-slide bg-cover bg-center bg-no-repeat"
+                  style="background-image: url(assets/img/matabg.png);"></div>
+              </div>
             </div>
+            <div class="position-relative text-white w-md-75 px-4 w-lg-60 mx-auto text-center z-1 py-12 py-lg-15">
+              <h1 class="display-1 mb-3 mb-md-4 position-relative">O Metaverso: </h1>
+              <h1> Impactos na saúde física e mental dos usuários</h1>
+              <div class="d-flex flex-column"></div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-      <section class="position-relative bg-body-tertiary overflow-hidden">
-                <div class="container py-lg-11 py-9">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 mb-7 mb-lg-0">
-                            <!--Feature heading-->
-                            <h2 class="display-4 mb-4" data-aos="fade-up">
-                                O que é o Metaverso?
-                            </h2>
-                            <!--feature description-->
-                            <p class="mb-5" data-aos="fade-up">
-                              O Metaverso é um mundo virtual que permite 
-                              interações sociais entre usuários pela internet, 
-                              funciona como uma realidade virtual, cujo objetivo é
-                               substituir as interações e atividades do mundo real pelo online 
-                            </p>
-                            <p class="mb-5" data-aos="fade-up">
-                              Os criadores do Metaverso, buscam reproduzir a realidade por 
-                              meio de tecnologia, como a realidade virtual. Esse recurso pode causar impactos negativos nas vidas das pessoas pois pode acarretar o surgimento de doenças físicas e mentais.  
-                            </p>
+      <section id="oq" class="position-relative bg-body-tertiary overflow-hidden">
+        <div class="container py-lg-11 py-9">
+          <div class="row align-items-center">
+            <div class="col-lg-5 mb-7 mb-lg-0">
+              <h2 class="display-4 mb-4" data-aos="fade-up">
+                O que é o Metaverso?
+              </h2>
+              <p class="mb-5" data-aos="fade-up">
+                O Metaverso é um mundo virtual que permite interações sociais
+                entre usuários pela internet, funciona como uma realidade virtual,
+                cujo objetivo é substituir as interações e atividades do mundo real
+                pelo online.
+              </p>
+              <p class="mb-5" data-aos="fade-up">
+                Os criadores do Metaverso, buscam reproduzir a realidade por
+                meio de tecnologia, como a realidade virtual. Esse recurso pode causar impactos negativos nas vidas das
+                pessoas pois pode acarretar o surgimento de doenças físicas e mentais.
+              </p>
+              <p class="mb-5" data-aos="fade-up">
+                Irá afetar todas as áreas de comunicação humana:
+                reuniões de trabalho, ensino, relações pessoais e muito mais.
+                No mundo do trabalho por exemplo, acabará com a limitação
+                de fronteiras e os imprevistos de deslocamento e poderá oferecer
+                novas fontes de renda estáveis.
+              </p>
+              <div class="d-flex flex-column flex-md-row align-items-md-center" data-aos="fade-up">
+                <span class="me-md-4 mb-3 mb-md-0">
 
-                            <!--Feature buttons-->
-                            <div class="d-flex flex-column flex-md-row align-items-md-center" data-aos="fade-up">
-                                <span class="me-md-4 mb-3 mb-md-0">
-                                    
-                            </div>
-                        </div>
-                        <div class="col-lg-6 ms-auto">
-                            <div class="position-relative pe-7 pb-7" data-aos="fade-up">
-                                <!--parallax-->
-                                <div class="width-15x height-15x bg-primary rounded-pill position-absolute end-0 top-0 mt-7 rellax"
-                                    data-rellax-speed="2" data-rellax-percentage=".9"></div>
-
-                                <!--Image-->
-                                <div class="bg-mask">
-                                    <img height = 300px src="assets/img/meta.png" alt="" class="mask-image mask-blob-3">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="col-lg-6 ms-auto">
+              <div class="position-relative pe-7 pb-7" data-aos="fade-up">
+                <div class="width-15x height-15x bg-primary rounded-pill position-absolute end-0 top-0 mt-7 rellax"
+                  data-rellax-speed="2" data-rellax-percentage=".9"></div>
+                <div class="bg-mask">
+                  <img src="assets/img/meta.png" alt="" class="mask-image mask-blob-3">
                 </div>
-            </section>
-            <!--/end: feature image section-->
-
-
-      <!--begin: features icons-->
-      <section class="position-relative border-bottom" id="next">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="positivo" class="position-relative border-bottom" id="next">
         <div class="container py-9 py-lg-11">
           <div class="row mb-9 mb-lg-11 justify-content-between align-items-end">
             <div class="col-lg-10 col-xl-8 mx-auto text-center">
-
-              <!--begin:Section Heading-->
-              <h2 class="display-5 mb-0" data-aos="fade-up">Influências do Metaverso
+              <h2 class="display-5 mb-0" data-aos="fade-up">Melhorias que trará
               </h2>
-              <!--end:heading-->
+
             </div>
           </div>
           <div class="row justify-content-around">
-            <!--begin:Feature column-->
             <div class="col-12 col-lg-4 mb-7 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
               <div class="text-center">
-                <!--Icon-->
                 <div class="mb-4 position-relative display-3 fw-normal text-primary">
                   <i class="icon-Heart-2 position-relative"></i>
                 </div>
                 <h5 class="mb-3">Área da saúde</h5>
                 <p class="mb-3 px-lg-3">
-                  Na parte da saúde haverá mudanças também.
-                  As mudanças positivas serão na relação entre médicos e pacientes, 
-                  pois o Metaverso facilitará os diagnósticos por meio da realidade virtual.
-                   
+
                 </p>
               </div>
             </div>
-            <!--end:Feature column-->
-
-            <!--begin:Feature column-->
             <div class="col-12 col-lg-4 mb-7 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
               <div class="text-center">
-                <!--Icon-->
                 <div class="mb-4 position-relative display-3 fw-normal text-primary">
-                  <i class="icon-Light-Bulb position-relative"></i>
+                  <i class="icon-Home position-relative"></i>
                 </div>
-                <h5 class="mb-3">Design & innovation</h5>
+                <h5 class="mb-3">Ficarei em casa!</h5>
                 <p class="mb-3 px-lg-3">
-                  a tecnologia 3D que possibilita maior imersão, dando ao usuário a capacidade de frequentar espaços e eventos sociais sem sair de sua casa, indo a shows, cinemas, parques, festas, mercados.
+                  <!-- sjkahasjuhdjhasbhsaddhsjas -->
                 </p>
               </div>
             </div>
-            <!--end:Feature column-->
-
-            <!--begin:Feature column-->
             <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="text-center">
-                <!--Icon-->
                 <div class="mb-4 position-relative display-3 fw-normal text-primary">
                   <i class="icon-Brain position-relative"></i>
                 </div>
                 <h5 class="mb-3">Saúde Mental</h5>
                 <p class="mb-3 px-lg-3">
-                  O uso excessivo de aparelhos eletrônicos como celulares, 
-                  videogames etc. Podem aumentar a propensão ao desenvolvimento
-                  de transtornos emocionais como depressão e ansiedade.
-                  Esse excesso pode causar um mau funcionamento do cérebro, afetando os neurotransmissores do bem-estar, e 
-                  na dependência.
+                  <!-- dsfkjsdjkhds -->
                 </p>
               </div>
             </div>
-            <!--end:Feature column-->
           </div>
         </div>
       </section>
-      <!--end: features icons-->
-
-      <!--begin: features image-->
-      <section class="position-relative overflow-hidden">
+      <section id="negativo" class="position-relative overflow-hidden">
         <div class="container py-9 py-lg-11 position-relative z-1">
           <div class="row align-items-center justify-content-between">
             <div class="order-last col-lg-6">
-
-              <!--Subheading-->
-              <div class="mb-4" data-aos="fade-up">
-                <!--Subheading-->
-                <h6 class="mb-0 text-uppercase">Why choose us?</h6>
-              </div>
-              <!--Section Heading-->
-              <h2 class="mb-7 display-5 position-relative z-1" data-aos="fade-right">Designed for developers
+              <h2 class="mb-7 display-5 position-relative z-1" data-aos="fade-right">Pontos Negativos
               </h2>
               <div class="position-relative z-1">
-                <!--Feature icon card-->
                 <div class="d-flex mb-5" data-aos="fade-up" data-aos-delay="150">
-                  <!--Feature icon-->
                   <div class="me-3">
-                    <!--Icon-->
                     <i
                       class="bx bx-check lh-1 width-3x height-3x flex-center rounded-circle bg-body-tertiary text-primary position-relative fs-4"></i>
                   </div>
-                  <!--Feature text-->
                   <div>
                     <h5>
-                      500+ Reusable components
+                      Ficarei em casa!
                     </h5>
                     <p class="mb-0 text-body-secondary">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ac turpis egestas maecenas pharetra convallis.
+                      A tecnologia 3D possibilita maior imersão, dando ao usuário a capacidade de frequentar espaços e
+                      eventos sociais sem sair de sua casa, indo a shows, cinemas, parques, festas, mercados. Isso fará
+                      com
+                      que muitas pessoas optem pelo virtual ao real.
                     </p>
                   </div>
                 </div>
-                <!--Feature icon card-->
                 <div class="d-flex mb-5" data-aos="fade-up" data-aos-delay="200">
-                  <!--Feature icon-->
                   <div class="me-3">
-                    <!--Icon-->
                     <i
                       class="bx bx-check lh-1 width-3x height-3x flex-center rounded-circle bg-body-tertiary text-primary position-relative fs-4"></i>
-
                   </div>
-
-                  <!--Feature text-->
                   <div>
                     <h5>
-                      Beautifully designed layouts
+                      Saúde Mental
                     </h5>
                     <p class="mb-0 text-body-secondary">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Ac turpis egestas maecenas pharetra convallis.
+                      O uso excessivo de aparelhos eletrônicos como celulares e
+                      videogames, aumentam a propensão ao desenvolvimento
+                      de transtornos como depressão e ansiedade.
+                      Esse excesso pode causar o funcionamento do cérebro, afetando os neurotransmissores do bem-estar,
+                      resultando na dependência psicológica dos eletrônicos.
                     </p>
                   </div>
                 </div>
@@ -322,9 +265,9 @@
             </div>
             <div class="col-lg-6 col-xl-5 col-md-10 me-lg-auto order-1 mb-7 mb-lg-0">
               <div class="position-relative" data-aos="fade-left" data-aos-delay="150">
-                <div class="bg-warning position-absolute start-0 bottom-0 w-100 h-75 rounded-5"></div>
+                <div class="bg-primary position-absolute start-0 bottom-0 w-100 h-75 rounded-5"></div>
 
-                <img src="assets/img/backgrounds/trans2.png" alt="" class="img-fluid position-relative">
+                <img src="assets/img/saude_posi.png" alt="" class="img-fluid position-relative">
               </div>
             </div>
           </div>
@@ -333,131 +276,8 @@
       <!--end: features image-->
 
       <!--begin: Section case studies (portfolio)-->
-      <section class="position-relative overflow-hidden">
-        <div class="position-absolute start-0 top-0 w-100 h-60 px-1 px-lg-3">
-          <div class="rounded-4 top-0 w-100 h-100 bg-primary"></div>
-        </div>
-        <div class="container-fluid position-relative py-9 py-lg-11">
-          <div class="row mb-5 text-white mb-lg-7 justify-content-center align-items-end">
-            <div class="col-lg-6 text-white text-center">
-              <!--Subheading-->
-              <h6 class="mb-4 text-uppercase">Case studies</h6>
-              <!--Section Heading-->
-              <h2 class="mb-0 display-5">Our work speaks for itself</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 position-relative">
 
-              <!--Projects swiper slider-->
-              <div class="swiper-container swiper-projects overflow-visible">
-                <div class="swiper-wrapper">
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/1.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/2.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/3.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/4.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/5.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-
-                  <!--begin:project-slide-->
-                  <div class="swiper-slide">
-                    <a href="#!" class="card-over d-block card-hover overflow-hidden rounded-3">
-                      <img src="assets/img/projects/7.jpg" alt="" class="img-fluid img-zoom rounded-3">
-                      <div class="card-overlay p-4 d-flex align-items-end text-white rounded-3">
-                        <ul class="list-unstyled overlay-items">
-                          <li>
-                            <h4 class="mb-1">Awesome title</h4>
-                          </li>
-                          <li><span class="opacity-75">Awesome Subtitle</span></li>
-                        </ul>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="text-center pt-7">
-                  <div
-                    class="swiperProjects-pagination text-primary swiper-pagination position-relative d-flex justify-content-center mb-4">
-                  </div>
-                  <a href="#!" class="btn btn-light hover-lift">
-                    View all case studies
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      <!--end: Section case studies (portfolio)-->
+      </div>
 
 
       <!--Begin:testimonials section-->
@@ -874,14 +694,14 @@
             </div>
           </div>
         </div>
-            <!--begin:divider-->
-    <svg class="position-absolute start-0 bottom-0 flip-y" style="color: var(--bs-dark);" width="100%" height="36"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 152" fill="none" preserveAspectRatio="none">
-    <path
-      d="M126.597 138.74C99.8867 127.36 76.6479 109.164 59.2161 85.9798L0 3.05176e-05L1440 0C1440 0 1419.98 25.8404 1380.15 32.9584L211.382 150.811C182.549 154.283 153.308 150.12 126.597 138.74Z"
-      fill="currentColor" />
-  </svg>
-  <!--end:divider-->
+        <!--begin:divider-->
+        <svg class="position-absolute start-0 bottom-0 flip-y" style="color: var(--bs-dark);" width="100%" height="36"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 152" fill="none" preserveAspectRatio="none">
+          <path
+            d="M126.597 138.74C99.8867 127.36 76.6479 109.164 59.2161 85.9798L0 3.05176e-05L1440 0C1440 0 1419.98 25.8404 1380.15 32.9584L211.382 150.811C182.549 154.283 153.308 150.12 126.597 138.74Z"
+            fill="currentColor" />
+        </svg>
+        <!--end:divider-->
       </section>
       <!--end:Call to action section-->
 
@@ -893,146 +713,144 @@
 
     <!--begin:Footer-->
     <footer id="footer" class="bg-dark footer position-relative" data-bs-theme="dark">
-        <div class="container pt-9 pt-lg-11">
-            <div class="row">
-                <div class="col-md-12 col-lg-4 mb-5 h-100 me-auto">
-                    <!--Title-->
-                    <h2 class="display-6 text-white mb-0 position-relative">
-                        Work with us
-                    </h2>
-                    <div class="pt-3">
-                        <a class="link-underline link-light fs-5" href="mailto:mail@doamin.com">mail@domain.com</a>
-                    </div>
-                    <!--:Dark Mode:-->
-                    <div class="d-inline-flex width-13x align-items-center dropup mt-6">
-                        <button class="btn border text-body py-2 px-2 d-flex align-items-center"
-                            id="assan-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown"
-                            data-bs-display="static">
-                            <span class="theme-icon-active d-flex align-items-center">
-                                <i class="bx align-middle"></i>
-                            </span>
-                        </button>
-                        <!--:Dark Mode Options:-->
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="assan-theme" style="--bs-dropdown-min-width: 9rem;">
-                            <li class="mb-1">
-                                <button type="button" class="dropdown-item d-flex align-items-center active"
-                                    data-bs-theme-value="light">
-                                    <span class="theme-icon d-flex align-items-center">
-                                        <i class="bx bx-sun align-middle me-2"> </i>
-                                    </span>
-                                    Light
-                                </button>
-                            </li>
-                            <li class="mb-1">
-                                <button type="button" class="dropdown-item d-flex align-items-center"
-                                    data-bs-theme-value="dark">
-                                    <span class="theme-icon d-flex align-items-center">
-                                        <i class="bx bx-moon align-middle me-2"></i>
-                                    </span>
-                                    Dark
-                                </button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center"
-                                    data-bs-theme-value="auto">
-                                    <span class="theme-icon d-flex align-items-center">
-                                        <i class="bx bx-color-fill align-middle me-2"></i>
-                                    </span>
-                                    Auto
-                                </button>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-2 mb-5 mb-md-0 ms-auto h-100">
-                    <!--Title-->
-                    <h6 class="small mb-3 mb-lg-4 text-white-50">Learn</h6>
-                    <!--Nav-->
-                    <ul class="nav flex-column mb-0">
-                        <li class="nav-item"><a class="nav-link" href="#!">Design</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Digital</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Development</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Branding</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Graphics</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Process</a></li>
-                    </ul>
-                </div>
-                <!--/.Col-->
-                <div class="col-sm-4 col-lg-2 mb-5 h-100">
-                    <!--Title-->
-                    <h6 class="small mb-3 mb-lg-4 text-white-50">Resources</h6>
-                    <!--Nav-->
-                    <ul class="nav flex-column mb-0">
-                        <li class="nav-item"><a class="nav-link" href="#!">Elements</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Features</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Credits</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Updates</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Help center</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Events</a></li>
-                    </ul>
-                </div>
-                <!--/.Col-->
-                <div class="col-sm-4 col-lg-3 col-xl-2 mb-5 mb-sm-0 h-100">
-                    <!--Title-->
-                    <h6 class="small mb-3 mb-lg-4 text-white-50">Company</h6>
-                    <!--Nav-->
-                    <ul class="nav flex-column mb-0">
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Awwards</a></li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#!">Careers
-                                <span class="badge badge-pill ms-1 bg-primary">Hiring</span>
-                            </a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Customers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Affiliate</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Terms of use</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Privacy policy</a></li>
-                    </ul>
-                </div>
-                <!--/.Col-->
+      <div class="container pt-9 pt-lg-11">
+        <div class="row">
+          <div class="col-md-12 col-lg-4 mb-5 h-100 me-auto">
+            <!--Title-->
+            <h2 class="display-6 text-white mb-0 position-relative">
+              Work with us
+            </h2>
+            <div class="pt-3">
+              <a class="link-underline link-light fs-5" href="mailto:mail@doamin.com">mail@domain.com</a>
             </div>
-            <hr class="mb-5 mt-0 text-white">
-        </div> <!-- / .container -->
-        <div class="pb-5">
-            <div class="container">
-                <div class="row justify-content-md-between align-items-center">
-                    <div class="d-flex mb-3 mb-md-0 col-sm-6 col-md-4">
-                        <!-- Social button -->
-                        <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-facebook">
-                            <i class="bx bxl-facebook fs-5"></i>
-                            <i class="bx bxl-facebook fs-5"></i>
-                        </a>
-                        <!-- Social button -->
-                        <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-twitter">
-                            <i class="bx bxl-twitter fs-5"></i>
-                            <i class="bx bxl-twitter fs-5"></i>
-                        </a>
-                        <!-- Social button -->
-                        <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-linkedin">
-                            <i class="bx bxl-linkedin fs-5"></i>
-                            <i class="bx bxl-linkedin fs-5"></i>
-                        </a>
-                        <!-- Social button -->
-                        <a href="#!" class="d-inline-block text-white mb-1 si rounded-pill si-hover-instagram">
-                            <i class="bx bxl-instagram fs-5"></i>
-                            <i class="bx bxl-instagram fs-5"></i>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-md-4 text-sm-end">
-                        <span class="d-block lh-sm small text-white-50">© Copyright
-                            <script>
-                                document.write(new Date().getFullYear())
-
-                            </script>. Assan
-                        </span>
-                    </div>
-                </div>
+            <!--:Dark Mode:-->
+            <div class="d-inline-flex width-13x align-items-center dropup mt-6">
+              <button class="btn border text-body py-2 px-2 d-flex align-items-center" id="assan-theme" type="button"
+                aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                <span class="theme-icon-active d-flex align-items-center">
+                  <i class="bx align-middle"></i>
+                </span>
+              </button>
+              <!--:Dark Mode Options:-->
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="assan-theme"
+                style="--bs-dropdown-min-width: 9rem;">
+                <li class="mb-1">
+                  <button type="button" class="dropdown-item d-flex align-items-center active"
+                    data-bs-theme-value="light">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bx bx-sun align-middle me-2"> </i>
+                    </span>
+                    Light
+                  </button>
+                </li>
+                <li class="mb-1">
+                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bx bx-moon align-middle me-2"></i>
+                    </span>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+                    <span class="theme-icon d-flex align-items-center">
+                      <i class="bx bx-color-fill align-middle me-2"></i>
+                    </span>
+                    Auto
+                  </button>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="col-sm-4 col-lg-2 mb-5 mb-md-0 ms-auto h-100">
+            <!--Title-->
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Learn</h6>
+            <!--Nav-->
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="#!">Design</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Digital</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Development</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Branding</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Graphics</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Process</a></li>
+            </ul>
+          </div>
+          <!--/.Col-->
+          <div class="col-sm-4 col-lg-2 mb-5 h-100">
+            <!--Title-->
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Resources</h6>
+            <!--Nav-->
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="#!">Elements</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Features</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Credits</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Updates</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Help center</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Events</a></li>
+            </ul>
+          </div>
+          <!--/.Col-->
+          <div class="col-sm-4 col-lg-3 col-xl-2 mb-5 mb-sm-0 h-100">
+            <!--Title-->
+            <h6 class="small mb-3 mb-lg-4 text-white-50">Company</h6>
+            <!--Nav-->
+            <ul class="nav flex-column mb-0">
+              <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Awwards</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#!">Careers
+                  <span class="badge badge-pill ms-1 bg-primary">Hiring</span>
+                </a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#!">Customers</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Affiliate</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Contact us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Terms of use</a></li>
+              <li class="nav-item"><a class="nav-link" href="#!">Privacy policy</a></li>
+            </ul>
+          </div>
+          <!--/.Col-->
         </div>
+        <hr class="mb-5 mt-0 text-white">
+      </div> <!-- / .container -->
+      <div class="pb-5">
+        <div class="container">
+          <div class="row justify-content-md-between align-items-center">
+            <div class="d-flex mb-3 mb-md-0 col-sm-6 col-md-4">
+              <!-- Social button -->
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-facebook">
+                <i class="bx bxl-facebook fs-5"></i>
+                <i class="bx bxl-facebook fs-5"></i>
+              </a>
+              <!-- Social button -->
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-twitter">
+                <i class="bx bxl-twitter fs-5"></i>
+                <i class="bx bxl-twitter fs-5"></i>
+              </a>
+              <!-- Social button -->
+              <a href="#!" class="d-inline-block text-white mb-1 me-2 si rounded-pill si-hover-linkedin">
+                <i class="bx bxl-linkedin fs-5"></i>
+                <i class="bx bxl-linkedin fs-5"></i>
+              </a>
+              <!-- Social button -->
+              <a href="#!" class="d-inline-block text-white mb-1 si rounded-pill si-hover-instagram">
+                <i class="bx bxl-instagram fs-5"></i>
+                <i class="bx bxl-instagram fs-5"></i>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 text-sm-end">
+              <span class="d-block lh-sm small text-white-50">© Copyright
+                <script>
+                  document.write(new Date().getFullYear())
+
+                </script>. Metaverso
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!--end:Footer-->
 
@@ -1120,6 +938,6 @@
       });
 
     </script>
-  </body>
+</body>
 
 </html>
